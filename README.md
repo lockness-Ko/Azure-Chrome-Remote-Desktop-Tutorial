@@ -132,7 +132,11 @@ sudo systemctl enable chrome-remote-desktop@username
 sudo apt install xubuntu-desktop
 ```
  - This will take a while so take another break and come back later
- - Once you have done this, go back to chrome remote desktop click "Remote Access"
+
+## Step Eight - Connect with Chrome Remote Desktop
+ - Now go back to chrome remote desktop click "Remote Access"
  - You should now see your machine which you can login to with the pin you created before!
 
 ![Remote](./Remote.png)
+
+ - Once you are in you will see 2 options, Xsession and Xfce, choose the Xfce option.
