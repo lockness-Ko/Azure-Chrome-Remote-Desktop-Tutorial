@@ -140,3 +140,6 @@ sudo apt install xubuntu-desktop
 ![Remote](./Remote.png)
 
  - Once you are in you will see 2 options, Xsession and Xfce, choose the Xfce option.
+ - For a better experience you may want to size up your machine:
+
+![Resize](./Resize.png)
