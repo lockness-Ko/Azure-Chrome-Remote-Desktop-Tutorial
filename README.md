@@ -143,3 +143,7 @@ sudo apt install xubuntu-desktop
  - For a better experience you may want to size up your machine:
 
 ![Resize](./Resize.png)
+
+Thanks for viewing my tutorial!
+
+If you would like to install some basic tools run this command:
