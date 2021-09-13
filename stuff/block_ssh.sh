@@ -1,0 +1,1 @@
+sudo cat /var/log/auth.log | grep -a "Failed password for invalid user " | awk '{ print $13 }' | sort | uniq -c | while read ip; do if [ `echo $ip | awk '{ print $1 }' | cat` -gt 5 ]; then sudo ufw deny from `echo $ip | awk '{ print $2 }'` to any; fi; done
